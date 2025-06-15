@@ -1,0 +1,267 @@
+:root {
+  --header-height: 60px;
+  --color-main-light: #e0f8eb;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ___________________________________________________ */
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--color-main-light);
+  z-index: 9999;
+}
+
+header > nav,
+header > div {
+  width: 30%;
+  text-align: center;
+}
+
+header > nav > ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+header > nav > ul > li {
+  width: fit-content;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d4ff99;
+  cursor: pointer;
+  user-select: none;
+  transition: all .1s;
+}
+
+header > nav > ul > li:hover {
+  background-color: #789c46;
+  color: rgb(249, 255, 238);
+}
+
+header > img {
+  height: 90%;
+}
+
+header > div > span {
+  display: block;
+  text-align: right;
+  padding: 3px;
+  font-size: 0.8em;
+}
+
+/* ___________________________________________________ */
+
+#welcome::before {
+  position: absolute;
+  content: " ";
+  width: inherit;
+  height: inherit;
+  background-image: url(./logo_580_nontransparent.png);
+  background-attachment: fixed;
+  box-shadow: 0 0 25px 25px black ;
+  filter: blur(20px) brightness(30%);
+  z-index: -1;
+}
+
+#welcome {
+  width: 100%;
+  height: calc(100vh - var(--header-height));
+  background-attachment: fixed;
+  margin-top: var(--header-height);
+}
+
+#welcome__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome__content > * {
+  width: 60%;
+  padding: 20px;
+  color: #dedede;
+  text-align: center;
+}
+
+/* ___________________________________________________ */
+
+#about {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+  background-color: var(--color-main-light);
+  justify-content: center;
+}
+
+#about > div {
+  width: 80%;
+  display: flex;
+  justify-self: center;
+}
+
+#about > div > * {
+  margin: 1vw;
+}
+
+#about > div > div {
+  align-self: center;
+}
+
+#about > div > img {
+  width: 30vw;
+}
+
+/* ___________________________________________________ */
+
+#services {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+  background-color: #cacaca;
+  display: flex;
+  justify-content: center;
+}
+
+#services > div {
+  width: 80%;
+  display: flex;
+  align-self: center;
+}
+
+#services > div > * {
+  margin: 1vw;
+}
+
+#services > div > :first-child {
+  width: 30vw;
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+  gap: 2vw;
+}
+
+#services > div > :first-child > * {
+  height: 100%;
+  width: 100%;
+}
+
+#services > div > :last-child {
+  width: 50%;
+  align-self: center;
+}
+
+/* ___________________________________________________ */
+
+#contacts {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+  background-color: var(--color-main-light);
+  display: flex;
+  justify-content: center;
+}
+
+#contacts > div {
+  width: 80%;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+
+#contacts > div > * {
+  margin: 1vw;
+}
+
+#contacts > div > div > ul {
+  list-style-type: none;
+}
+
+#contacts > div > div > ul li{
+  padding: 5px;
+}
+
+#contacts > div > div > ul img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+/* ___________________________________________________ */
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: fit-content;
+  background-color: #e7ffc0;
+  padding-bottom: 16px;
+}
+
+footer > * {
+  margin: 1vw;
+}
+
+#footer__company {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#footer__company img {
+  height: 48px;
+  width: 48px;
+}
+
+#footer__contacts > ul {
+  list-style-type: none;
+}
+
+#footer__contacts > ul li{
+  padding: 5px;
+}
+
+#footer__contacts > ul img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+#footer__creator {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.33);
+  margin: 2px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.33);
+}
+
+footer a:hover {
+  color: rgba(0, 0, 0, 0.66);
+}

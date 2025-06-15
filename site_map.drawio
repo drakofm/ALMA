@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Страница — 1" id="5zcHwGgOVoYxasIbdJxE">
+    <mxGraphModel dx="1674" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-3" value="Статичное изображение, прокручивающаяся страница" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="760" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-1" value="Лого" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-4" value="О нас" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-5" value="Услуги" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-6" value="Контакты" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-7" value="телефон" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-8" value="почта" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="95" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="580" width="760" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-12" value="Картинка" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="610" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-14" value="Картинка" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="750" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-15" value="&lt;span data-tilda-quill=&quot;&quot;&gt;Выполнение инженерно-экологических изысканий требуется для обоснования строительства объекта и для уменьшения возможных неблагоприятных последствия для окружающей среды, позволяет получить информацию о почве, грунте, воздухе, водных источниках, донных отложениях.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="610" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-16" value="&lt;p data-tilda-quill=&quot;&quot;&gt;&lt;span data-tilda-quill=&quot;&quot;&gt;Если вы цените свою деятельность и свое время, хотите удобства в работе, комплексных услуг, то предлагаем обратится к нам, ООО «АЛМА» будет вашим надежным партнером и помощником! &lt;/span&gt;&lt;/p&gt;&lt;p data-tilda-quill=&quot;&quot;&gt;&lt;span data-tilda-quill=&quot;&quot;&gt;Сотрудничая с нами, вы получите результаты только от аккредитованных в ФСА лабораторий.&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="750" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-17" value="&#xa;&lt;span style=&quot;color: rgb(165, 165, 165);&quot;&gt;Общество с ограниченной ответственность &quot;AHAЛИTИЧECKAЯ ЛAБOPATOPИЯ MACCOBЫX AHAЛИ3OB&quot;&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="670" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-18" value="&#xa;&lt;strong data-tilda-quill=&quot;&quot; style=&quot;font-family: Roboto;&quot;&gt;AHAЛИTИЧECKAЯ ЛAБOPATOPИЯ MACCOBЫX AHAЛИ3OB&lt;/strong&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="270" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-19" value="&#xa;Наше основное направление - предоставление комплекса услуг для инженерно-экологических изысканий (и не только) по организации проведения лабораторных исследований и замеров объектов окружающей среды - почвы, воды, физических факторов и др.&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="390" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1840" width="760" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-30" value="КАРТА" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1870" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-31" value="Контакты,&amp;nbsp;&lt;br&gt;&lt;div&gt;время работы,&lt;/div&gt;&lt;div&gt;соцсети&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="165" y="1940" width="135" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-34" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="40" y="980" width="760" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cJj0A5UE7sTZjgFygGRx-34" vertex="1">
+          <mxGeometry width="760" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div class=&quot;t486__title t-title t-title_xs&quot;&gt;&lt;div data-customstyle=&quot;yes&quot;&gt;&lt;font size=&quot;3&quot;&gt;Чаще всего к нам обращаются когда нужны исследования:&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;t486__descr t-descr t-descr_md&quot;&gt;&lt;ul&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;span style=&quot;font-family: Roboto;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Бактериологическое и гельминтологическое исследование грунта.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;span style=&quot;font-family: Roboto;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Исследование грунта на загрязнения (Медь, цинк, свинец, никель, кадмий, мышьяк, ртуть, Бенз(а)пирен, Нефтепродукты, pН).&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;span style=&quot;font-family: Roboto;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Исследование удельной активности радионуклидов грунта (Ra-226, Th-232, K-40, Cs-137, Аэфф).&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;span style=&quot;font-family: Roboto;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Замеры физических факторов: ЭМИ; ЭРОА; Шум (дневные и ночные замеры); МЭД ГИ; ППР.&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;span style=&quot;font-family: Roboto;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Биотестирование грунтов (токсикологический анализ на 2х тест-объектах).&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li data-list=&quot;bullet&quot;&gt;&lt;span style=&quot;font-family: Roboto;&quot;&gt;&lt;font size=&quot;3&quot;&gt;Исследование воды подземной (грунтовой) и поверхностной (природной).&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cJj0A5UE7sTZjgFygGRx-34" vertex="1">
+          <mxGeometry x="240" y="50" width="505" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-24" value="img" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="cJj0A5UE7sTZjgFygGRx-34" vertex="1">
+          <mxGeometry x="40" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-25" value="img" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="cJj0A5UE7sTZjgFygGRx-34" vertex="1">
+          <mxGeometry x="140" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-26" value="img" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="cJj0A5UE7sTZjgFygGRx-34" vertex="1">
+          <mxGeometry x="40" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-27" value="img" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="cJj0A5UE7sTZjgFygGRx-34" vertex="1">
+          <mxGeometry x="140" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1420" width="760" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-36" value="Полный список исследований, раскрывающиеся списки по обла&lt;div&gt;стям (химия, радийка, сан-эп, ФФ)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="125" y="1490" width="570" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2260" width="760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-39" value="АЛМА" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="2280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-40" value="дезигн сайта ссылка на меня" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="2360" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cJj0A5UE7sTZjgFygGRx-41" value="Снова кратко контакты" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="2280" width="480" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
