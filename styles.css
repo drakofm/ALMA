@@ -1,9 +1,4 @@
 @font-face {
-  font-family: MursGothicWide;
-  src: url(./MursGothicWide.ttf);
-}
-
-@font-face {
   font-family: Montserrat;
   src: url(./Montserrat.ttf);
 }
@@ -14,8 +9,8 @@
 }
 
 :root {
-  --header-height: 60px;
-  --color-main-light: #e0f8eb;
+  --header-height: 80px;
+  --color-main-light: #f2f2f2;
 }
 
 *,
@@ -42,14 +37,33 @@ header {
   justify-content: space-around;
   width: 100%;
   height: var(--header-height);
-  background-color: var(--color-main-light);
+  background-color: #eff3eb;
+  box-shadow: 0 0 10px 3px rgba(35, 44, 27, 0.444) ;
   z-index: 9999;
 }
 
-header > nav,
-header > div {
+#header__logo-div {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  user-select: none;
+}
+
+#header__logo-img {
+  height: 100%;
+}
+
+#header__logo-name {
+  text-align-last: left;
+  font-family: Montserrat;
+  font-size: 0.7em;
+  letter-spacing: 0.1em;
+}
+
+header > nav {
   width: 30%;
-  text-align: center;
 }
 
 header > nav > ul {
@@ -59,30 +73,40 @@ header > nav > ul {
 }
 
 header > nav > ul > li {
-  width: fit-content;
+  min-width: fit-content;
   height: 40px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #d4ff99;
+  color: #191c19;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-shadow: 0 0 1px #8e8e8e;
   cursor: pointer;
   user-select: none;
   transition: all .1s;
 }
 
 header > nav > ul > li:hover {
-  background-color: #a8ca84;
-  color: rgb(249, 255, 238);
+  background-color: #ffffff6f;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
 }
 
-header > img {
-  height: 90%;
+#header__info-div {
+  display: flex;
+  gap: 40px;
 }
 
-header > div > span {
-  display: block;
-  text-align: right;
+#header__info-div > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   padding: 3px;
-  font-size: 0.8em;
+  font-size: 1em;
+}
+
+#header__info-div > span > img {
+  height: 16px;
+  width: 16px;
 }
 
 /* ___________________________________________________ */
