@@ -1,3 +1,18 @@
+@font-face {
+  font-family: MursGothicWide;
+  src: url(./MursGothicWide.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./Montserrat.ttf);
+}
+
+@font-face {
+  font-family: Geologica;
+  src: url(./Geologica.ttf);
+}
+
 :root {
   --header-height: 60px;
   --color-main-light: #e0f8eb;
@@ -13,7 +28,8 @@
 
 html {
   min-height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Geologica, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 /* ___________________________________________________ */
@@ -54,7 +70,7 @@ header > nav > ul > li {
 }
 
 header > nav > ul > li:hover {
-  background-color: #789c46;
+  background-color: #a8ca84;
   color: rgb(249, 255, 238);
 }
 
@@ -76,10 +92,11 @@ header > div > span {
   content: " ";
   width: inherit;
   height: inherit;
-  background-image: url(./logo_580_nontransparent.png);
+  background-image: url(./laboratory_0023.jpg);
+  background-size: cover;
   background-attachment: fixed;
   box-shadow: 0 0 25px 25px black ;
-  filter: blur(20px) brightness(30%);
+  filter: blur(4px) brightness(40%) hue-rotate(360deg);
   z-index: -1;
 }
 
@@ -95,15 +112,32 @@ header > div > span {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 #welcome__content > * {
-  width: 60%;
-  padding: 20px;
+  padding: 20px 10vw;
   color: #dedede;
-  text-align: center;
+}
+
+#welcome__content > h1 {
+  font-family: Montserrat;
+  font-size: min(7vw, 7vh);
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
+}
+
+#welcome__content > h3 {
+  font-size: min(2.4vw, 3.2vh);
+  line-height: 1.4em;
+  color: #cdd5c0;
+  width: 60vw;
+  min-width: 420px;
+  
+}
+
+.welcome__first-letter {
+  color: #a8ca84;
 }
 
 /* ___________________________________________________ */
