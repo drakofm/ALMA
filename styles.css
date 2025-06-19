@@ -92,11 +92,9 @@ header > div > span {
   content: " ";
   width: inherit;
   height: inherit;
-  background-image: url(./laboratory_0023.jpg);
+  background-image: url(./bg_laboratory_blured_darkened.jpg);
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: 0 0 25px 25px black ;
-  filter: blur(4px) brightness(40%) hue-rotate(360deg);
   z-index: -1;
 }
 
@@ -116,7 +114,8 @@ header > div > span {
 }
 
 #welcome__content > * {
-  padding: 20px 10vw;
+  padding: 20px;
+  margin: 0 15vw;
   color: #dedede;
 }
 
