@@ -57,7 +57,7 @@ header {
   z-index: 9999;
 }
 
-.header_headlink {
+.header__headlink {
   height: 90%;
   display: flex;
   justify-content: center;
@@ -181,8 +181,8 @@ header {
 #welcome__scrolltip {
   position: absolute;
   bottom: 10px;
-  left: 45%;
-  width: 4vw;
+  left: 48%;
+  width: 5vw;
   opacity: 0.2;
   animation: arrow 2s ease-in-out infinite;
 }
@@ -273,9 +273,10 @@ header {
 #services__collage {
   width: 30vw;
   display: grid;
-  grid: 1fr 1fr / 1fr 1fr;
+  grid: 200px 200px / 200px 200px;
+  align-items: center;
+  justify-content: center;
   gap: 2vw;
-
 }
 
 #services__collage > * {
@@ -386,4 +387,19 @@ footer a {
 
 footer a:hover {
   color: rgba(0, 0, 0, 0.66);
+}
+
+/* ___________________________________________________ */
+
+@media screen and (max-width: 1440px) {
+
+  #header__info-div {
+    flex-direction: column;
+    gap: 0;
+    font-size: 0.8em;
+  }
+
+  #services__collage {
+    grid: 200px 200px 200px 200px / 200px;
+  }
 }
