@@ -183,18 +183,18 @@ header {
 #about {
   width: 100%;
   height: fit-content;
+  display: flex;
   padding: 20px 0;
   background-color: var(--color-main-light);
   justify-content: center;
 }
 
-#about > div {
-  width: 80%;
-  display: flex;
-  justify-self: center;
+.about__infocard {
+  width: 30%;
+  text-align: center;
 }
 
-#about > div > * {
+.about__infocard > * {
   margin: 1vw;
 }
 
@@ -203,7 +203,7 @@ header {
 }
 
 #about > div > img {
-  width: 30vw;
+  width: 5vw;
 }
 
 /* ___________________________________________________ */
