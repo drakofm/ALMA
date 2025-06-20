@@ -8,6 +8,12 @@
   src: url(./Geologica.ttf);
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  } 
+}
+
 :root {
   --header-height: 80px;
   --color-main-light: #f2f2f2;
@@ -27,6 +33,15 @@ html {
   font-weight: 500;
 }
 
+section {
+  scroll-margin-top: var(--header-height);
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
 /* ___________________________________________________ */
 
 header {
@@ -42,7 +57,7 @@ header {
   z-index: 9999;
 }
 
-#header__logo-div {
+.header_headlink {
   height: 90%;
   display: flex;
   justify-content: center;
@@ -62,17 +77,17 @@ header {
   letter-spacing: 0.1em;
 }
 
-header > nav {
+#header__navblock {
   width: 30%;
 }
 
-header > nav > ul {
+#header__navlist {
   display: flex;
   gap: 20px;
   list-style-type: none;
 }
 
-header > nav > ul > li {
+.header_navlink {
   min-width: fit-content;
   height: 40px;
   padding: 10px;
@@ -86,7 +101,7 @@ header > nav > ul > li {
   transition: all .1s;
 }
 
-header > nav > ul > li:hover {
+.header_navlink:hover {
   background-color: #ffffff6f;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
 }
@@ -96,7 +111,7 @@ header > nav > ul > li:hover {
   gap: 40px;
 }
 
-#header__info-div > span {
+.header__infospan {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -104,7 +119,7 @@ header > nav > ul > li:hover {
   font-size: 1em;
 }
 
-#header__info-div > span > img {
+.header__infospan img {
   height: 16px;
   width: 16px;
 }
