@@ -124,6 +124,10 @@ header {
   width: 16px;
 }
 
+.header__infospan a:hover {
+  text-shadow: 0 0 3px #838f6ea4;
+}
+
 /* ___________________________________________________ */
 
 #welcome::before {
@@ -386,6 +390,10 @@ header {
   margin-right: 10px;
 }
 
+#contacts__info a:hover {
+  text-shadow: 0 0 3px #688532be;
+}
+
 /* ___________________________________________________ */
 
 footer {
@@ -430,6 +438,10 @@ footer > * {
 
 #footer__contacts ul li a {
   color: currentColor;
+}
+
+#footer__contacts ul li a:hover {
+  text-shadow: 0 0 3px #808578be;
 }
 
 #footer__contacts ul img {
