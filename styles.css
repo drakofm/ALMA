@@ -247,6 +247,7 @@ header {
   padding: 20px 0;
   background-color: #eff3eb;
   display: flex;
+  gap: 5vh;
   flex-direction: column;
   justify-content: center;
 }
@@ -291,8 +292,57 @@ header {
 #services__container-longinfo {
   width: 80%;
   display: flex;
+  gap: 10px;
   flex-direction: column;
   align-self: center;
+  padding-left: 4.5em;
+}
+
+#services__container-longinfo h4 {
+  font-size: 1.1em;
+}
+
+#services__container-longinfo summary {
+  display: flex;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: #fafff8;
+  border-radius: 15px;
+  cursor: pointer;
+  user-select: none;
+  transition: all .1s;
+}
+
+#services__container-longinfo summary #text {
+  align-self: center;
+}
+
+#services__container-longinfo summary::marker {
+  display: none;
+  content: "";
+}
+
+#services__container-longinfo summary:hover {
+  background-color: #9dd27733;
+}
+
+#services__container-longinfo summary::before {
+  content: "";
+  display: inline-block;
+  background: url(./icon_arrow-right-circle.svg);
+  background-size: 1.2em;
+  width: 1.2em; 
+  height: 1.2em;
+  margin: 0 5px;
+  transition: all .2s;
+}
+
+#services__container-longinfo details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+#services__container-longinfo ul li {
+  margin: 5px 3vw;
 }
 
 /* ___________________________________________________ */
