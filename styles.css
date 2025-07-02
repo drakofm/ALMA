@@ -175,7 +175,6 @@ header {
   color: #cdd5c0;
   width: 60vw;
   min-width: 420px;
-  
 }
 
 .welcome__first-letter {
@@ -223,7 +222,6 @@ header {
   display: flex;
   gap: 30px;
   align-items: center;
-  
 }
 
 .about__infocard > * {
@@ -479,5 +477,168 @@ footer a:hover {
 
   #services__collage {
     grid: 200px 200px 200px 200px / 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #contacts__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contacts__info {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 848px) {
+
+  header {
+    padding: 0 2vw;
+    justify-content: start;
+    gap: 20px;
+  }
+
+  #header__logo-img {
+    height: 70%;
+  }
+  
+  #header__logo-name {
+    font-size: 0.5em;
+    letter-spacing: 0.08em;
+  }
+
+  .header__headlink {
+    gap: 10px;
+  }
+
+  #header__navblock {
+    width: 50%;
+  }
+
+  #services__text {
+    font-size: 1em;
+  }
+
+  #services__collage {
+    grid: 160px 160px 160px 160px / 160px;
+  }
+
+  #services__container-longinfo {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 704px) {
+
+  header {
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #header__info-div, 
+  #header__logo-name {
+    display: none;
+  }
+
+  #header__navblock {
+    width: 80%;
+  }
+
+  #header__navlist {
+    font-size: 90%;
+    justify-content: center;
+  }
+
+
+
+  #welcome__content > * {
+    margin: 0;
+    padding: 10px 5vw;
+  }
+
+  #welcome__content > h2 {
+    font-size: min(3.2vw, 3.2vh);
+    min-width: 80%;
+  }
+
+  .about__infocard {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .about__text {
+    width: 80%;
+    align-self: center;
+    font-size: 1.0em;
+    letter-spacing: 0.5px;
+    line-height: 1.25em;
+  }
+  
+  .about__img {
+    width: max(10vw, 10vh);
+    opacity: 0.4;
+  }
+
+
+
+  #services__container-shortinfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services__collage {
+    grid: 80px / 80px 80px 80px 80px;
+  }
+
+  #services__text {
+    width: 100%;
+    font-size: 0.8em;
+  }
+
+
+
+  #contacts__container {
+    gap: 10px;
+  }
+
+  #contacts__info {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+
+
+  footer {
+    padding-bottom: 32px;
+  }
+
+  #footer__company {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  #footer__company p {
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  #footer__contacts {
+    flex-direction: column;
+    gap: 0vw;
+    font-size: 0.8em;
+  }
+
+  #footer__contacts ul li {
+    padding: 3px;
+  }
+
+  #footer__creator {
+    font-size: 0.7em;
+    padding: 2px;
   }
 }
