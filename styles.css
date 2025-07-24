@@ -347,6 +347,12 @@ header {
   margin: 5px 3vw;
 }
 
+#services__container-longinfo ul li:last-of-type {
+  padding-top: 10px;
+  list-style-type: none;
+  font-style: italic;
+}
+
 /* ___________________________________________________ */
 
 #contacts {
