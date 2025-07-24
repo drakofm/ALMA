@@ -130,6 +130,21 @@ header {
 
 /* ___________________________________________________ */
 
+#wa-fixed-button {
+  position: fixed;
+  right: 3vw;
+  bottom: 3vh;
+  height: max(min(8vw, 8vh), 48px);
+  z-index: 9999;
+}
+
+#wa-fixed-button > img {
+  height: 100%;
+  opacity: 0.6;
+}
+
+/* ___________________________________________________ */
+
 #welcome::before {
   position: absolute;
   content: " ";
