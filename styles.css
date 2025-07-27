@@ -385,6 +385,7 @@ header {
   display: flex;
   align-self: center;
   justify-content: space-around;
+  font-style: normal;
 }
 
 #contacts__container > * {
